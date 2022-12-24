@@ -18,7 +18,7 @@ export class CryptoListComponent {
   constructor(private _cryptosService: CryptosService) {
   }
 
-  getPrice(id: string): void {
-    this._cryptoPriceSubject.next(id);
+  getPrice(price: string): void {
+    this._cryptoPriceSubject.next(price);
   }
 }
