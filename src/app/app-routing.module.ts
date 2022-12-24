@@ -8,7 +8,7 @@ import { CryptoListComponentModule } from './components/crypto-list/crypto-list.
 import { CryptosServiceModule } from './services/cryptos.service-module';
 
 @NgModule({
-  imports: [RouterModule.forRoot([{ path: 'products', component: ProductsListComponent }, { path: 'crypto', component: CryptoListComponent }]), ProductsListComponentModule, ProductsServiceModule, CryptoListComponentModule, CryptosServiceModule],
+  imports: [RouterModule.forRoot([{ path: 'products-master-details', component: ProductsListComponent }, { path: 'crypto', component: CryptoListComponent }]), ProductsListComponentModule, ProductsServiceModule, CryptoListComponentModule, CryptosServiceModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
